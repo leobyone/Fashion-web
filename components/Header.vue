@@ -58,7 +58,7 @@
           <div class="row">
             <div class="col-md-2 col-sm-4 col-xs-6">
               <div class="logo">
-                <a href="index.html"><img src="img/logo.png" alt="" /></a>
+                <a href="index.html"><img src="image/logo.png" alt="" /></a>
               </div>
             </div>
             <div class="col-md-8 hidden-xs hidden-sm">
@@ -104,7 +104,7 @@
                           <a href="shop.html">nail set </a>
                         </span>
                         <span class="mega-menu-img">
-                          <a href="shop.html"><img alt="" src="img/customblock-1.jpg"></a>
+                          <a href="shop.html"><img alt="" src="image/customblock-1.jpg"></a>
                         </span>
                       </div>
                     </li>
@@ -133,14 +133,14 @@
               <div class="my-cart">
                 <div class="total-cart">
                   <a href="cart.html">
-                    <img src="img/cart/cart.png" alt="" />
+                    <img src="image/cart/cart.png" alt="" />
                     <span>3</span>
                   </a>
                 </div>
                 <ul>
                   <li>
                     <div class="cart-img">
-                      <a href="#"><img alt="" src="img/cart/1.jpg"></a>
+                      <a href="#"><img alt="" src="image/cart/1.jpg"></a>
                     </div>
                     <div class="cart-info">
                       <h4><a href="#">Vestibulum suscipit</a></h4>
@@ -152,7 +152,7 @@
                   </li>
                   <li>
                     <div class="cart-img">
-                      <a href="#"><img alt="" src="img/cart/1.jpg"></a>
+                      <a href="#"><img alt="" src="image/cart/1.jpg"></a>
                     </div>
                     <div class="cart-info">
                       <h4><a href="#">Vestibulum suscipit</a></h4>
@@ -164,7 +164,7 @@
                   </li>
                   <li>
                     <div class="cart-img">
-                      <a href="#"><img alt="" src="img/cart/1.jpg"></a>
+                      <a href="#"><img alt="" src="image/cart/1.jpg"></a>
                     </div>
                     <div class="cart-info">
                       <h4><a href="#">Vestibulum suscipit</a></h4>
@@ -189,7 +189,7 @@
                 <!-- SEARCH BAR -->
                 <div class="dropdown">
                   <a href="javascript:void(0);" class="search-open">
-                    <img src="img/search.png" alt="" />
+                    <img src="image/search.png" alt="" />
                   </a>
                   <div class="search-inside animated bounceInUp"> <i class="icon-close search-close fa fa-times"></i>
                     <div class="search-overlay"></div>

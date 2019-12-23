@@ -23,19 +23,26 @@ export default {
   ** Global CSS
   */
   css: [
-    'bootstrap/dist/css/bootstrap.css',
-    {src: '@/style/animate.css', lang: 'css'},
-    {src: '@/style/meanmenu.min.css', lang: 'css'},
-    {src: '@/style/slick.css', lang: 'css'},
-    {src: '@/style/font-awesome.min.css', lang: 'css'},
-    {src: '@/style/style.css', lang: 'css'},
-    {src: '@/style/responsive.css', lang: 'css'}
+    // 'bootstrap/dist/css/bootstrap.css',
+    // { src: '@/style/meanmenu.min.css', lang: 'css' },
+    // { src: '@/style/slick.css', lang: 'css' },
+    // { src: '@/style/font-awesome.min.css', lang: 'css' },
+    // { src: '@/style/style.css', lang: 'css' },
+    // { src: '@/style/responsive.css', lang: 'css' }
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~plugins/bootstrap.js'
+    // { src: '~plugins/bootstrap.js', ssr: false },
+    // { src: '~plugins/wow.js', ssr: false },
+    // { src: '~plugins/js/wow.js', ssr: false },
+    // { src: '~plugins/slick.js', ssr: false },
+    // { src: '~/plugins/js/owl.carousel.min.js', ssr: false },
+    // { src: '~plugins/js/jquery.meanmenu.js', ssr: false },
+    // // { src: '~plugins/waypoints.js', ssr: false },
+    // // { src: '~plugins/js/plugins.js', ssr: false },
+    // { src: '~plugins/js/main.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -61,13 +68,8 @@ export default {
   ** Build configuration
   */
   build: {
-    vendor: ['jquery', 'bootstrap'],
+    vendor: [],
     plugins: [
-      new webpack.ProvidePlugin({
-        $: 'jquery',
-        jQuery: 'jquery',
-        'window.jQuery': 'jquery'
-      })
     ],
 
     /*

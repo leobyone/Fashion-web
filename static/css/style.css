@@ -1068,7 +1068,7 @@ ul.product-nav li:last-child:before{display:none}
 5. upcoming-product-area
 ---------------------------- */
 .upcoming-product-area {
-  background: rgba(0, 0, 0, 0) url("/assets/img/bg2.jpg") repeat scroll center center / cover ;
+  background: rgba(0, 0, 0, 0) url("../image/bg2.jpg") repeat scroll center center / cover ;
   position: relative;
   padding: 140px 0;
 }
@@ -1193,7 +1193,7 @@ a.shop_now:hover{background:#fff;color:#444}
 7. latest-blog-area
 ---------------------------- */
 .latest-blog-area {
-  background: url(/assets/img/bg.jpg);
+  background: url(../image/bg.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -1564,7 +1564,7 @@ ul.instagram-thumb li a:hover:after{transform: scaleX(1);opacity:.4;}
 10. service area
 ---------------------------- */
 .service-area {
-	background: rgba(0, 0, 0, 0) url("/assets/img/bg.jpg") no-repeat scroll center center;
+	background: rgba(0, 0, 0, 0) url("../image/bg.jpg") no-repeat scroll center center;
 	padding: 150px 0 100px;
 }
 .single-service {
@@ -1758,7 +1758,7 @@ h3.sidebar-title::before {
 12. breadcrumb-area
 -------------------------------------*/
 .page-title-area {
-  background: rgba(0, 0, 0, 0) url("/assets/img/breadcrumbs.jpg") no-repeat scroll center center / cover ;
+  background: rgba(0, 0, 0, 0) url("../static//breadcrumbs.jpg") no-repeat scroll center center / cover ;
   padding: 124px 0;
 }
 .title-heading {
@@ -3127,7 +3127,7 @@ a.shipping-calculator-button:hover {
 }
 .team .social a:hover{background:#fe4847;color:#fff}
 .testimonial-area {
-	background: rgba(0, 0, 0, 0) url("/assets/img/bg.jpg") repeat scroll center center / cover;
+	background: rgba(0, 0, 0, 0) url("../image/bg.jpg") repeat scroll center center / cover;
 	padding: 130px 0;
 }
 .single-testimonial {

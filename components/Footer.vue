@@ -85,12 +85,12 @@
             <div class="footer-widget">
               <h3>Our instagram</h3>
               <ul class="instagram-thumb">
-                <li><a href="#"><img alt="" src="img/instagram/thumbnail1.jpg"></a></li>
-                <li><a href="#"><img alt="" src="img/instagram/thumbnail2.jpg"></a></li>
-                <li><a href="#"><img alt="" src="img/instagram/thumbnail3.jpg"></a></li>
-                <li><a href="#"><img alt="" src="img/instagram/thumbnail4.jpg"></a></li>
-                <li><a href="#"><img alt="" src="img/instagram/thumbnail5.jpg"></a></li>
-                <li><a href="#"><img alt="" src="img/instagram/thumbnail6.jpg"></a></li>
+                <li><a href="#"><img alt="" src="image/instagram/thumbnail1.jpg"></a></li>
+                <li><a href="#"><img alt="" src="image/instagram/thumbnail2.jpg"></a></li>
+                <li><a href="#"><img alt="" src="image/instagram/thumbnail3.jpg"></a></li>
+                <li><a href="#"><img alt="" src="image/instagram/thumbnail4.jpg"></a></li>
+                <li><a href="#"><img alt="" src="image/instagram/thumbnail5.jpg"></a></li>
+                <li><a href="#"><img alt="" src="image/instagram/thumbnail6.jpg"></a></li>
               </ul>
             </div>
           </div>
@@ -110,7 +110,7 @@
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
             <div class="payment-img">
-              <img src="img/payment.png" alt="" />
+              <img src="image/payment.png" alt="" />
             </div>
           </div>
         </div>
