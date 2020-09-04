@@ -284,3 +284,36 @@
   </header>
   <!-- header end -->
 </template>
+<script>
+import Vue from 'vue'
+import axios from '~/plugins/axios'
+
+export default {
+  async asyncData({ params, error, redirect }) {
+    try {
+    } catch (err) {
+      if (err.response && err.response.status == 401) {
+        return redirect('/login')
+      } else {
+        error({ statusCode: 404 })
+      }
+    }
+  },
+  name: 'Articledetails',
+  data() {
+    return {
+      background: false,
+      backgroundImg: ''
+    }
+  },
+  mounted() {
+  },
+  methods: {
+  },
+  computed: {
+  },
+  components: {},
+  beforeDestroy() {
+  }
+}
+</script>

@@ -50,6 +50,22 @@
             </div>
           </div>
         </div>
+        <div class="single-slider slide-height d-flex align-items-center" data-background="image/slider/slide2.jpg">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="slide-content slide-white text-center">
+                  <h1 data-animation="fadeInUp" data-delay=".5s">Trendy Fashion Shop</h1>
+                  <p data-animation="fadeInUp" data-delay="1s">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do
+                    <br> eiusmod tempor incididunt ut labore
+                    et dolore magna</p>
+                  <a class="btn btn-white" href="shop.html" data-animation="fadeInUp" data-delay="1.5s">shop now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- slider-area end -->
@@ -1814,9 +1830,31 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import axios from '~/plugins/axios'
 import Logo from '~/components/Logo.vue'
 
 export default {
+  name: 'index',
+  data() {
+    return {
+    }
+  },
+  async asyncData({ params, error, redirect }) {
+    try {
+      const { data } = await axios.get('/api/user', { params: { id: 1 } })
+      console.log(data);
+      const response = data.data;
+      return { response }
+    } catch (err) {
+      console.log(err);
+      if (err.response && err.response.status == 401) {
+        return redirect('/login')
+      } else {
+        error({ statusCode: 404 })
+      }
+    }
+  },
   head: {
     script: [
       { src: 'js/vendor/jquery-1.12.0.min.js' },
@@ -1867,9 +1905,7 @@ export default {
       $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
     })
 
-    /*---------------------
- TOP Menu Stick
---------------------- */
+    // TOP Menu Stick
     var s = $("#sticker");
     var pos = s.position();
     $(window).on('scroll', function () {

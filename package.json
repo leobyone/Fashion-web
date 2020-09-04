@@ -11,7 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
+    "axios": "^0.19.2",
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0",
     "jquery": "^3.4.1",
@@ -23,6 +23,8 @@
     "waypoints": "^4.0.1"
   },
   "devDependencies": {
+    "@nuxtjs/axios": "^5.12.1",
+    "@nuxtjs/proxy": "^2.0.1",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-prettier": "^3.0.1",
     "prettier": "^1.16.4",

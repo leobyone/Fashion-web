@@ -1,5 +1,6 @@
 const webpack = require('webpack')
-export default {
+
+module.exports = {
   mode: 'universal',
   /*
   ** Headers of the page
@@ -57,6 +58,7 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/proxy'
   ],
   /*
   ** Axios module configuration
@@ -68,7 +70,7 @@ export default {
   ** Build configuration
   */
   build: {
-    vendor: [],
+    vendor: ['element-ui', 'axios'],
     plugins: [
     ],
 
@@ -85,5 +87,11 @@ export default {
       //   })
       // }
     }
-  }
+  },
+  proxy: [
+    ['/api', { target: 'http://localhost:8090' }],//这里改成你自己的后端api端口地址，记得每次修改，都需要重新build
+    //['/images', { target: 'http://apk.neters.club' }],
+    // ['/api', { target: 'http://123.206.33.109:8081' }],
+    //['/images', { target: 'http://123.206.33.109:8081' }],
+  ]
 }
