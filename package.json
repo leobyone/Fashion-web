@@ -17,7 +17,7 @@
     "jquery": "^3.4.1",
     "jquery-ui": "^1.12.1",
     "jquery.countup.js": "^1.0.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "scrollup": "^1.0.1",
     "slick-carousel": "^1.8.1",
     "waypoints": "^4.0.1"
